@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&family=Salsa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #d1edf2;
+    font-family: "Roboto";
+}
+
+#main-header {
+    font-family: "Pacifico";
+    margin: 10px 20px;
+}
+
+.photo {
+    margin: 0;
+    padding: 0; 
+    background-image: url("foto.webp");
+    height: 250px;
+    background-size: cover;
+    opacity: 80%;
+}
+
+#profile {
+    text-align: center;
+    margin: 15px 400px;
+}
+
+#more-about-me {
+    margin-top: 50px;
+    width: 1000px;
+    margin: auto;
+}
+
+.this-is-me {
+    width: 250px;
+    margin: 30px 30px;
+    max-width: 33%;
+    display: inline-block;
+    vertical-align: top; 
+    background-color: #fff;
+    border: 2px solid #c0c0c0;
+}
+
+.this-is-me:hover {
+    box-shadow: 3px 3px 5px 6px #d6d1ce;
+}
+
+.this-is-me-image {
+    margin: 20px 80px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    border-radius: 100px;
+}
+
+.this-is-me h2 {
+    font-family: "Salsa";
+    text-align: center;
+    margin: 5px;
+    border-bottom: 2px solid #fff
+}
+
+.this-is-me h2:hover {
+    font-size: 30px;
+}
+
+.this-is-me h2:after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.this-is-me p {
+    margin: 10px;
+}
+
+.this-is-me ul {
+    margin-left: 20px;
+}
+
+.read-more {
+    display: none;
+}
+
+.button-more {
+    border: none;
+    background-color: #fff;
+    color: blue;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button-more:hover {
+    font-size: medium;
+}
+
+#main-footer { 
+    font-family: "Pacifico";
+    text-align: center;
+    margin: 50px 0;
+}
