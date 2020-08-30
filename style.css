@@ -47,7 +47,7 @@ body {
 }
 
 .this-is-me:hover {
-    box-shadow: 3px 3px 5px 6px #d6d1ce;
+    box-shadow: 3px 3px 3px 5px #d6d1ce;
 }
 
 .this-is-me-image {
@@ -55,7 +55,8 @@ body {
     width: 100px;
     height: 100px;
     max-width: 100%;
-    border-radius: 100px;
+    border-radius: 70px;
+    box-shadow: 2px 2px 4px 3px #d6d1ce;
 }
 
 .this-is-me h2 {
@@ -106,5 +107,5 @@ body {
 #main-footer { 
     font-family: "Pacifico";
     text-align: center;
-    margin: 50px 0;
+    margin: 50px;
 }

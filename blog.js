@@ -1,5 +1,5 @@
 function showMore(id) {
-    var moreTextId = "span" + id;
+    var moreTextId = "div" + id;
     var moreText = document.getElementById(moreTextId);
     var buttonText = document.getElementById(id);
 
