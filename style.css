@@ -19,7 +19,7 @@ body {
 .photo {
     margin: 0;
     padding: 0; 
-    background-image: url("foto.jpg");
+    background-image: url("image/foto.jpg");
     height: 100px;
     background-size: contain;
     opacity: 100%;
@@ -99,6 +99,7 @@ body {
     margin: auto;
     display: block;
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 .button-more:hover {
