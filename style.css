@@ -19,10 +19,11 @@ body {
 .photo {
     margin: 0;
     padding: 0; 
-    background-image: url("foto.webp");
-    height: 250px;
-    background-size: cover;
-    opacity: 80%;
+    background-image: url("foto.jpg");
+    height: 100px;
+    background-size: contain;
+    opacity: 100%;
+    box-shadow: 2px 2px 2px 4px #afeeee;
 }
 
 #profile {
